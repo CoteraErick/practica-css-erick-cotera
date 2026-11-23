@@ -160,3 +160,77 @@ footer p {
     font-size: 15px;
     margin: 0;
 }
+
+/* ===================================
+   CATALOGO DE PRODUCTOS
+=================================== */
+
+.catalogo {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.producto {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f8fafc;
+    width: 29%;
+    min-width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    color: #1e40af;
+    font-size: 21px;
+    text-align: center;
+}
+
+.producto p {
+    color: #475569;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.producto:hover {
+    background-color: #dbeafe;
+    border-color: #2563eb;
+}
+
+.galeria {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.galeria img {
+    width: 250px;
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.galeria img:hover {
+    opacity: 0.75;
+    border-color: #2563eb;
+}
+
+#galeria a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#galeria a:hover {
+    color: #1e40af;
+    text-decoration: underline;
+}
