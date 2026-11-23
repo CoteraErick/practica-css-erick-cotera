@@ -1,0 +1,162 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f9;
+    color: #334155;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-top: 12px;
+}
+
+nav {
+    background-color: #1e40af;
+    padding: 16px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a:active {
+    background-color: #0f172a;
+    color: #facc15;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border: 1px solid #dbe3ed;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #1e40af;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+h2 + p {
+    font-weight: bold;
+}
+
+h2 ~ p {
+    letter-spacing: 0.3px;
+}
+
+.presentacion {
+    background-color: #dbeafe;
+    border: 2px solid #93c5fd;
+    text-align: center;
+    padding: 45px 30px;
+}
+
+.presentacion h2 {
+    color: #102a43;
+    font-size: 32px;
+}
+
+.presentacion a {
+    color: white;
+    background-color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.presentacion a:hover {
+    background-color: #1e40af;
+}
+
+#beneficios ul {
+    background-color: #f8fafc;
+    padding: 25px 40px;
+    border-radius: 8px;
+}
+
+#beneficios li {
+    font-size: 17px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#beneficios li:first-child {
+    color: green;
+}
+
+#beneficios li:last-child {
+    color: #1e40af;
+}
+
+#beneficios li:nth-child(2) {
+    background-color: #dbeafe;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #102a43;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0;
+}
